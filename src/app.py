@@ -1,5 +1,4 @@
 def login(username, password):
-    print("Login attempt detected")
-    if username == "admin":
+    if username == "admin" and password == "secure_pw": # เปลี่ยน
         return "Login Success"
     return "Login Failed"
